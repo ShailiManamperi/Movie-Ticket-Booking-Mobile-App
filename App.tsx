@@ -19,6 +19,8 @@ import {
   View,
 } from 'react-native';
 
+import { upcomingMovies,popularMovies,nowPlayingMovies,searchMovies} from "./src/Api/apiCalls.tsx";
+
 import {
   Colors,
   DebugInstructions,
@@ -63,6 +65,8 @@ function App(): React.JSX.Element {
   const backgroundStyle = {
     backgroundColor: isDarkMode ? Colors.darker : Colors.lighter,
   };
+
+  console.log(searchMovies('Avengers'));
 
   return (
     <SafeAreaView style={backgroundStyle}>
