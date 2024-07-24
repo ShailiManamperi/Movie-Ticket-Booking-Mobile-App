@@ -31,7 +31,7 @@ const getNowPlayingMoviesList = async () => {
     return json;
   } catch (error) {
     console.error(
-      ' Something went wrong in getNowPlayingMoviesList Function',
+      'Something went wrong in getNowPlayingMoviesList Function',
       error,
     );
   }
@@ -44,7 +44,7 @@ const getUpcomingMoviesList = async () => {
     return json;
   } catch (error) {
     console.error(
-      ' Something went wrong in getUpcomingMoviesList Function',
+      'Something went wrong in getUpcomingMoviesList Function',
       error,
     );
   }
@@ -57,7 +57,7 @@ const getPopularMoviesList = async () => {
     return json;
   } catch (error) {
     console.error(
-      ' Something went wrong in getPopularMoviesList Function',
+      'Something went wrong in getPopularMoviesList Function',
       error,
     );
   }
