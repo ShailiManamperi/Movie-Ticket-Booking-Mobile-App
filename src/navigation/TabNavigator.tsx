@@ -1,4 +1,3 @@
-/* eslint-disable */
 import React from "react";
 import HomeScreen from "../Screens/HomeScreen.tsx";
 import SearchScreen from "../Screens/SearchScreen.tsx";
@@ -54,8 +53,7 @@ const TabNavigator = () =>{
             return (
               <View
                 style={[
-                  styles.activeTabBackground,
-                  focused ? {backgroundColor: COLOR.Orange} : {},
+                  styles.activeTabBackground, focused ? {backgroundColor: COLOR.Orange} : {},
                 ]}>
                 <CustomIcon
                   name="search"

@@ -6,14 +6,18 @@ import { Text, View, StyleSheet } from 'react-native';
 const MovieDetailScreen = () => {
   return (
     <View style={styles.container}>
-      <Text>MovieDetailScreen</Text>
+      <Text style={styles.text}>MovieDetailScreen</Text>
     </View>
   );
 };
 
 
 const styles = StyleSheet.create({
-  container: {}
+  container: {},
+  text:{
+    color:'black',
+    fontSize:16,
+  }
 });
 
 export default MovieDetailScreen;
