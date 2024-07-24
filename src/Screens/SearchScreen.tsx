@@ -1,10 +1,11 @@
+/* eslint-disable */
 import * as React from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 
 const SearchScreen = () => {
   return (
     <View style={styles.container}>
-      <Text>SearchScreen</Text>
+      <Text style={styles.text}>SearchScreen</Text>
     </View>
   );
 };
@@ -12,7 +13,11 @@ const SearchScreen = () => {
 
 
 const styles = StyleSheet.create({
-  container: {}
+  container: {},
+  text:{
+    color:'black',
+    fontSize:16,
+  }
 });
 
 export default SearchScreen;

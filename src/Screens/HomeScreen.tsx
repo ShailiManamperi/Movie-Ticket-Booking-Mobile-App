@@ -1,10 +1,11 @@
+/* eslint-disable */
 import * as React from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 
 const HomeScreen = () => {
   return (
     <View style={styles.container}>
-      <Text>HomeScreen</Text>
+      <Text style={styles.text}>HomeScreen</Text>
     </View>
   );
 };
@@ -12,7 +13,11 @@ const HomeScreen = () => {
 
 
 const styles = StyleSheet.create({
-  container: {}
+  container: {},
+  text:{
+    color:'black',
+    fontSize:16,
+  }
 });
 
 export default HomeScreen;
