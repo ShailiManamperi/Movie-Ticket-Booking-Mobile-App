@@ -2,11 +2,11 @@ import * as React from 'react';
 import {Text, View, StyleSheet, Image} from 'react-native';
 import {
   BORDERRADIUS,
-  COLORS,
+  COLOR,
   FONTFAMILY,
   FONTSIZE,
   SPACING,
-} from '../theme/theme';
+} from "../Themes/themes.tsx";
 import {Colors} from 'react-native/Libraries/NewAppScreen';
 
 const CastCard = (props: any) => {
@@ -49,13 +49,13 @@ const styles = StyleSheet.create({
     alignSelf: 'stretch',
     fontFamily: FONTFAMILY.poppins_medium,
     fontSize: FONTSIZE.size_12,
-    color: COLORS.White,
+    color: COLOR.White,
   },
   subtitle: {
     alignSelf: 'stretch',
     fontFamily: FONTFAMILY.poppins_medium,
     fontSize: FONTSIZE.size_10,
-    color: COLORS.White,
+    color: COLOR.White,
   },
 });
 
