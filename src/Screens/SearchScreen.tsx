@@ -9,8 +9,8 @@ import {
 } from 'react-native';
 import {COLOR, SPACING} from "../Themes/themes.tsx";
 import {baseImagePath, searchMovies} from "../Api/apiCalls.tsx";
-import InputHeader from "../componets/InputHeader.tsx";
-import SubMovieCard from "../componets/SubMovieCard.tsx";
+import InputHeader from "../componets/utils/InputHeader.tsx";
+import SubMovieCard from "../componets/utils/SubMovieCard.tsx";
 
 const {width, height} = Dimensions.get('screen');
 

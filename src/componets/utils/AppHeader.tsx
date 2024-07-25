@@ -1,13 +1,13 @@
 import * as React from 'react';
 import {Text, View, StyleSheet, TouchableOpacity} from 'react-native';
-import CustomIcon from './CustomIcon';
+import CustomIcon from '../CustomIcon.ts';
 import {
   BORDERRADIUS,
   COLOR,
   FONTFAMILY,
   FONTSIZE,
   SPACING,
-} from "../Themes/themes.tsx";
+} from "../../Themes/themes.tsx";
 
 const AppHeader = (props: any) => {
   return (

@@ -19,11 +19,11 @@ import {
   FONTSIZE,
   SPACING,
 } from "../Themes/themes.tsx";
-import AppHeader from "../componets/AppHeader.tsx";
+import AppHeader from "../componets/utils/AppHeader.tsx";
 import LinearGradient from 'react-native-linear-gradient';
 import CustomIcon from "../componets/CustomIcon.ts";
-import CategoryHeader from "../componets/CategoryHeader.tsx";
-import CastCard from "../componets/CastCard.tsx";
+import CategoryHeader from "../componets/utils/CategoryHeader.tsx";
+import CastCard from "../componets/utils/CastCard.tsx";
 
 const getMovieDetails = async (movieid: number) => {
   try {

@@ -6,7 +6,7 @@ import {
   FONTFAMILY,
   FONTSIZE,
   SPACING,
-} from "../Themes/themes.tsx";
+} from "../../Themes/themes.tsx";
 import {Colors} from 'react-native/Libraries/NewAppScreen';
 
 const CastCard = (props: any) => {

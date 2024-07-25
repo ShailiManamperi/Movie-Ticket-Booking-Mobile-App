@@ -6,7 +6,7 @@ import {
   FONTFAMILY,
   FONTSIZE,
   SPACING,
-} from '../Themes/themes.tsx';
+} from '../../Themes/themes.tsx';
 
 const SubMovieCard = (props: any) => {
   return (

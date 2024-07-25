@@ -6,8 +6,8 @@ import {
   FONTFAMILY,
   FONTSIZE,
   SPACING,
-} from '../Themes/themes.tsx';
-import CustomIcon from './CustomIcon';
+} from '../../Themes/themes.tsx';
+import CustomIcon from '../CustomIcon.ts';
 
 const genres: any = {
   28: 'Action',

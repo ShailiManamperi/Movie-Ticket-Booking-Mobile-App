@@ -17,10 +17,10 @@ import {
   popularMovies,
   baseImagePath,
 } from "../Api/apiCalls.tsx";
-import InputHeader from "../componets/InputHeader.tsx";
-import CategoryHeader from "../componets/CategoryHeader.tsx";
-import SubMovieCard from "../componets/SubMovieCard.tsx";
-import MovieCard from "../componets/MovieCard.tsx";
+import InputHeader from "../componets/utils/InputHeader.tsx";
+import CategoryHeader from "../componets/utils/CategoryHeader.tsx";
+import SubMovieCard from "../componets/utils/SubMovieCard.tsx";
+import MovieCard from "../componets/utils/MovieCard.tsx";
 
 const {width, height} = Dimensions.get('window');
 

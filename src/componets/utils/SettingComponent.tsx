@@ -1,7 +1,7 @@
 import * as React from 'react';
 import {Text, View, StyleSheet} from 'react-native';
-import {COLOR, FONTFAMILY, FONTSIZE, SPACING} from '../Themes/themes.tsx';
-import CustomIcon from './CustomIcon';
+import {COLOR, FONTFAMILY, FONTSIZE, SPACING} from '../../Themes/themes.tsx';
+import CustomIcon from '../CustomIcon.ts';
 
 const SettingComponent = (props: any) => {
   return (
