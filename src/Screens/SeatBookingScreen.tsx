@@ -100,6 +100,7 @@ const SeatBookingScreen = ({navigation, route}: any) => {
           setSelectedSeatArray(array);
         }
       }
+      setSelectedSeatArray(array);
       setPrice(array.length * 5.0);
       setTwoDSeatArray(temp);
     }
