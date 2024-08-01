@@ -1,56 +1,59 @@
 import * as React from 'react';
-import {Text, View, StyleSheet, StatusBar, Image} from 'react-native';
+import { Text, View, StyleSheet, StatusBar, Image, ScrollView } from "react-native";
 import {COLOR, FONTFAMILY, FONTSIZE, SPACING} from "../Themes/themes.tsx";
 import AppHeader from "../componets/utils/AppHeader.tsx";
 import SettingComponent from "../componets/utils/SettingComponent.tsx";
 
 const UserAccountScreen = ({navigation}: any) => {
   return (
-    <View style={styles.container}>
-      <StatusBar hidden />
-      <View style={styles.appHeaderContainer}>
-        <AppHeader
-          name="close"
-          header={'My Profile'}
-          action={() => navigation.goBack()}
-        />
-      </View>
+    <ScrollView>
+      <View style={styles.container}>
+        <StatusBar hidden />
+        <View style={styles.appHeaderContainer}>
+          <AppHeader
+            name="close"
+            header={'My Profile'}
+            action={() => navigation.goBack()}
+          />
+        </View>
 
-      <View style={styles.profileContainer}>
-        <Image
-          source={require('../assets/image/avatar.png')}
-          style={styles.avatarImage}
-        />
-        <Text style={styles.avatarText}>John Doe</Text>
-      </View>
+        <View style={styles.profileContainer}>
+          <Image
+            source={require('../assets/image/avatar.png')}
+            style={styles.avatarImage}
+          />
+          <Text style={styles.avatarText}>John Doe</Text>
+        </View>
 
-      <View style={styles.profileContainer}>
-        <SettingComponent
-          icon="user"
-          heading="Account"
-          subheading="Edit Profile"
-          subtitle="Change Password"
-        />
-        <SettingComponent
-          icon="setting"
-          heading="Settings"
-          subheading="Theme"
-          subtitle="Permissions"
-        />
-        <SettingComponent
-          icon="dollar"
-          heading="Offers & Refferrals"
-          subheading="Offer"
-          subtitle="Refferrals"
-        />
-        <SettingComponent
-          icon="info"
-          heading="About"
-          subheading="About Movies"
-          subtitle="more"
-        />
+        <View style={styles.profileContainer}>
+          <SettingComponent
+            icon="user"
+            heading="Account"
+            subheading="Edit Profile"
+            subtitle="Change Password"
+          />
+          <SettingComponent
+            icon="setting"
+            heading="Settings"
+            subheading="Theme"
+            subtitle="Permissions"
+          />
+          <SettingComponent
+            icon="dollar"
+            heading="Offers & Refferrals"
+            subheading="Offer"
+            subtitle="Refferrals"
+          />
+          <SettingComponent
+            icon="info"
+            heading="About"
+            subheading="About Movies"
+            subtitle="more"
+          />
+        </View>
       </View>
-    </View>
+    </ScrollView>
+
   );
 };
 
